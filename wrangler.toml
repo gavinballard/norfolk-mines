@@ -1,0 +1,6 @@
+name = "norkfolk-mines"
+main = "src/index.js"
+compatibility_date = "2022-06-28"
+
+[triggers]
+crons = [ "1 * * * *" ]
