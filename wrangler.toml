@@ -2,5 +2,12 @@ name = "norkfolk-mines"
 main = "src/index.js"
 compatibility_date = "2022-06-28"
 
+kv_namespaces = [
+  { binding = "KV", id = "d098367e803546198045afa89cc398eb", preview_id = "c09f6d805d864a6bb43321acb2c2b432" }
+]
+
+[vars]
+ROOM = "Koala"
+
 [triggers]
-crons = [ "1 * * * *" ]
+crons = [ "*/15 * * * *" ]
